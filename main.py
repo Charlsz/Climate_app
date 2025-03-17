@@ -1,5 +1,5 @@
 """
-CLIMATE PREDICTOR - Versión Final Estable
+Climate app
 """
 
 import numpy as np
@@ -37,7 +37,7 @@ try:
 except (FileNotFoundError, EOFError):
     model = train_model()
 
-# ---------- INTERFAZ WEB MEJORADA ----------
+# ---------- WEB ----------
 HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
