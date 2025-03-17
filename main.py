@@ -22,7 +22,7 @@ def get_sample_data():
         'temperature_anomaly': np.linspace(0.4, 0.72, 11)
     })
 
-# ---------- MODELO FINAL ----------
+# ---------- MODELO ----------
 def train_model():
     """Entrena modelo con datos sintéticos"""
     data = get_sample_data()
