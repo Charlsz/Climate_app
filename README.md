@@ -13,7 +13,7 @@ Climate_app is a web application that estimates temperature anomalies based on C
 1. Install Python 3.8+.
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install numpy pandas scikit-learn flask plotly joblib
    ```
 
 ## Usage
