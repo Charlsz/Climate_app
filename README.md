@@ -19,7 +19,7 @@ Climate_app is a web application that estimates temperature anomalies based on C
 ## Usage
 ### Run the App
 ```bash
-python app.py
+python main.py
 ```
 Access at: `http://localhost:5000`
 
