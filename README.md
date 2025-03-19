@@ -23,6 +23,7 @@ python main.py
 ```
 Access at: `http://localhost:5000`
 
+
 ### API Endpoint
 - **POST /predict**
 - Request JSON:
