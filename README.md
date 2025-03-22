@@ -1,7 +1,7 @@
 # Climate Predictor
 
 ## Overview
-Climate_app is a web application that estimates temperature anomalies based on CO2 levels using a machine learning model.
+Climate_app is a web application that estimates temperature anomalies based on CO2 levels using a machine learning model. All based between 2000 - 2010
 
 ## Features
 - Predicts temperature anomalies based on CO2 input.
@@ -28,11 +28,11 @@ Access at: `http://localhost:5000`
 - **POST /predict**
 - Request JSON:
   ```json
-  {"co2": 400.5}
+  {"co2": 400}
   ```
 - Response JSON:
   ```json
-  {"prediction": 1.05}
+  {"prediction": 0.69}
   ```
 
 ## Deployment
